@@ -126,6 +126,7 @@ const style = StyleSheet.create({
     shadowOpacity: 0.8,
     shadowRadius: 2,
     elevation: 2,
+    marginBottom: 2,
   },
   image: {
     width: 50,

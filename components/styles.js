@@ -1,10 +1,12 @@
 import React from "react";
-import { StyleSheet } from "react-native";
+import { StyleSheet, StatusBar } from "react-native";
+
+const height = StatusBar.currentHeight;
 
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 35,
+    marginTop: height,
     position: "relative",
     paddingBottom: 60,
     border: "10px solid red",
